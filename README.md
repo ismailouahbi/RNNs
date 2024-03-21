@@ -11,6 +11,51 @@ Unlike traditional neural networks where inputs are independent, RNNs have inter
 * Speech recognition
 * Time series forecasting
 
+
+## Run Locally
+
+Clone the project (using command line)
+
+```bash
+  git clone https://github.com/ismailouahbi/RNNs.git
+```
+
+Go to the project directory
+
+```bash
+  cd RNNs
+```
+
+Setting up the Environment
+
+A `virtual environment` is a Python environment such that the Python interpreter, libraries and scripts installed into it are isolated from those installed in other virtual environments.
+
+* [source](https://www.freecodecamp.org/news/how-to-setup-virtual-environments-in-python/)
+
+```bash
+# create a virtual env named rnn_env
+  python -m venv rnn_env
+```
+
+```bash
+# activate the virtual env (windows)
+  rnn_env\Scripts\activate
+```
+
+```bash
+# install jupyter notebook
+pip install notebook
+```
+
+```bash
+# launch a jupyter notebook session
+jupyter notebook
+```
+
+Go to `A_character-level_autocompletion_model_with_a_simple_RNN.ipynb`
+
+Enjoy!
+
 ## Authors
 
 - [Ismail Ouahbi](https://www.linkedin.com/in/ismail-ouahbi/)
